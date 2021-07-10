@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Vivekanandha Pre-university</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        .containar-image {
+            background-image: url('images.jpeg');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            width: 100%;
+            height: 1000px;
+            opacity: 0.7;
+        }
+
+        .logo {
+            background-image: url('logo.PNG');
+            background-repeat: no-repeat;
+            /* background-attachment: fixed; */
+            background-size: contain;
+            width: 100px;
+            height: 65px;
+            position: absolute;
+            top: 30px;
+            left: 12%;
+        }
+
+        .heading {
+            color: rgb(199, 16, 16);
+            text-align: center;
+            font-size: 300%;
+            font-family: Georgia;
+            position: absolute;
+            top: 0;
+            left: 20%;
+
+        }
+
+        .card {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+            width: 30%;
+            height: 400px;
+            position: absolute;
+            top: 200px;
+            right: 70px;
+            opacity: 0.7;
+            background: black;
+            text-align: center;
+            color: white;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+        }
+
+        .container {
+            padding: 2px 16px;
+        }
+
+        .about{
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.0);
+            transition: 0.7s;
+            padding: 20px;
+            width: 50%;
+            height: 750px;
+            position: absolute;
+            top: 200px;
+            left: 70px;
+            opacity: 0.7;
+            background: rgb(7, 14, 19);
+            text-align: justify;
+            color: white;
+            font-size: medium;
+
+        } 
+
+        .collapsible {
+            background-color: black;
+            color: white;
+            cursor: pointer;
+            padding: 18px;
+            width: 100%;
+            border: none;
+            text-align: left;
+            outline: none;
+            font-size: 15px;
+            opacity: 0.7;
+        }
+
+        .active,
+        .collapsible:hover {
+            background-color: #555;
+        }
+
+        .content {
+            padding: 0 18px;
+            display: none;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .expansion {
+        box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%); 
+            width: 30%;
+            height: 161px;
+            position: absolute;
+            top: 686px;
+            right: 70px;
+            text-align: center;
+            color: white;
+        }
+
+        .button {
+        
+        background-color:white;
+        border: none;
+        color: rgb(199, 16, 16);
+        padding: 20px 34px;
+        text-align: center;
+        text-decoration:none;
+        display: inline-block;
+        font-size: 20px;
+        margin: 4px 2px;
+        
+    
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="containar-image"></div>
+    <div class="logo"></div>
+    <h1 class="heading" style="text-shadow: 2px 2px black;">Vivekanandha Pre-University College</h1>
+
+    <div class="card">
+        <p>
+        <h1><em>Admission</em></h1><em class="fa fa-graduation-cap"
+            style="font-size:60px;color: rgb(199, 16, 16);"></em></p>
+        <br>
+        <b
+            style="font-size: xx-large;color:rgb(119, 232, 14);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">Select
+            your Course</b>
+            <br><br>
+        <!-- <button type=button" style="color:  rgb(199, 16, 16);font-size:x-large;"><b>1st PUC</b></button><br><br>
+        <button type="button" style="color:  rgb(199, 16, 16);font-size:x-large;"><b>2nd PUC</b></button> -->
+        <a href="form1.html" class="button">1st PUC</a><br>
+        <a href="form2.html" class="button">2nd PUC</a>
+
+
+    </div>
+    <div class="about">
+        <u>
+            <h1 style="color:  rgb(199, 16, 16);">Vision</h1>
+        </u>
+        <p style="font-size:large;color: rgb(243, 237, 237);font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+
+
+            A student of our College will be an individual:<br>
+            -Endowed with the spirit of enquiry<br>
+            -Eager to acquire knowledge and skills<br>
+            -Competent to be employed in his/her field<br>
+            -Possessing qualities of leadership, responsible to family, <br>
+            society and nation<br>
+            -Capable of appreciating aesthetics and understanding our cultural<br>
+            heritage and rational and humane in<br>
+            attitude.<br>
+        </p>
+        <hr>
+        <u>
+            <h1 style="color:  rgb(199, 16, 16);">Mission</h1>
+        </u>
+        <p style="font-size:large;color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+
+
+
+            Our College strives:<br>
+            -To provide students with quality education using innovative and
+            humane methods of <br> and learning<br>
+            -To develop in them competence for employment as well as entrepreneurship,<br> to promote their power of
+            thinking<br>
+            -creative ability<br>
+            -To organize activities that will contribute to the understanding of<br> their responsibilities to the
+            family,
+            the society and the nation<br>
+            -To promote national integration through cordial relationship<br> between and among stake holders
+        </p>
+        <hr>
+        <u>
+            <h1 style="color:  rgb(199, 16, 16);">Objectives</h1>
+        </u>
+        <p style="font-size:large;color: white;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+
+            -Character building<br>
+            -Excellence in teaching-learning<br>
+            -Building competence for employability/entrepreneurship
+        </p>
+    </div>
+
+    <div class="expansion">
+        <button type="button" class="collapsible">Sports</button>
+        <div class="content">
+            <p>We conduct sports meet every year. The students that we have trained here have reached national level.
+                So we encourage every students to take part in sports and games. </p>
+        </div>
+        <button type="button" class="collapsible">Cent - Percent</button>
+        <div class="content">
+            <p>We have been achieving 100% percent result every year. We try our level best to maintain the same in future. </p>
+        </div>
+    </div>
+
+
+    <script>
+        var coll = document.getElementsByClassName("collapsible");
+        var i;
+
+        for (i = 0; i < coll.length; i++) {
+            coll[i].addEventListener("click", function () {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.display === "block") {
+                    content.style.display = "none";
+                } else {
+                    content.style.display = "block";
+                }
+            });
+        }
+    </script>
+</body>
+
+</html>
